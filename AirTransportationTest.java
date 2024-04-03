@@ -8,11 +8,11 @@ import org.junit.jupiter.api.Test;
 /**
  * The test class AirTransportationTest.
  *
- * @author  POO
- * @version 03/2024
+ * @author  (your name)
+ * @version (a version number or a date)
  */
-
-public class AirTransportationTest {
+public class AirTransportationTest
+{
 
     private AirTransportation airTransport;
 

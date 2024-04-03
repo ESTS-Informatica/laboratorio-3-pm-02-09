@@ -6,15 +6,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * The test class GroundTransportation.
+ * The test class GroundTransportationTestTest.
  *
- * @author  POO
- * @version 03/2024
+ * @author  (your name)
+ * @version (a version number or a date)
  */
-public class GroundTransportationTest {
-    
+public class GroundTransportationTestTest
+{
     private GroundTransportation groundTransport;
-
     @BeforeEach
     public void setUp() {
         groundTransport = new GroundTransportation("ABC123");
@@ -53,5 +52,16 @@ public class GroundTransportationTest {
     public void testGetPriceWithFees() {
         groundTransport.setPrice(100.0);
         assertEquals(103.0, groundTransport.getPriceWithFees(), 0.001);
+    }
+
+
+    /**
+     * Tears down the test fixture.
+     *
+     * Called after every test case method.
+     */
+    @AfterEach
+    public void tearDown()
+    {
     }
 }
